@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C3AA613201F6597007560FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AA612201F6597007560FC /* AppDelegate.swift */; };
+		4C3AA615201F6597007560FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AA614201F6597007560FC /* ViewController.swift */; };
+		4C3AA617201F6597007560FC /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AA616201F6597007560FC /* Document.swift */; };
+		4C3AA619201F6597007560FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AA618201F6597007560FC /* Assets.xcassets */; };
+		4C3AA61C201F6597007560FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3AA61A201F6597007560FC /* Main.storyboard */; };
+		4C3AA628201F6597007560FC /* PenelopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AA627201F6597007560FC /* PenelopeTests.swift */; };
+		4C3AA633201F6597007560FC /* PenelopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AA632201F6597007560FC /* PenelopeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3AA624201F6597007560FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3AA607201F6597007560FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3AA60E201F6597007560FC;
+			remoteInfo = Penelope;
+		};
+		4C3AA62F201F6597007560FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C3AA607201F6597007560FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3AA60E201F6597007560FC;
+			remoteInfo = Penelope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3AA60F201F6597007560FC /* Penelope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penelope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3AA612201F6597007560FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C3AA614201F6597007560FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C3AA616201F6597007560FC /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4C3AA618201F6597007560FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3AA61B201F6597007560FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3AA61D201F6597007560FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3AA61E201F6597007560FC /* Penelope.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Penelope.entitlements; sourceTree = "<group>"; };
+		4C3AA623201F6597007560FC /* PenelopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenelopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3AA627201F6597007560FC /* PenelopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenelopeTests.swift; sourceTree = "<group>"; };
+		4C3AA629201F6597007560FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3AA62E201F6597007560FC /* PenelopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenelopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3AA632201F6597007560FC /* PenelopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenelopeUITests.swift; sourceTree = "<group>"; };
+		4C3AA634201F6597007560FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3AA60C201F6597007560FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA620201F6597007560FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA62B201F6597007560FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C3AA606201F6597007560FC = {
+			isa = PBXGroup;
+			children = (
+				4C3AA611201F6597007560FC /* Penelope */,
+				4C3AA626201F6597007560FC /* PenelopeTests */,
+				4C3AA631201F6597007560FC /* PenelopeUITests */,
+				4C3AA610201F6597007560FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3AA610201F6597007560FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AA60F201F6597007560FC /* Penelope.app */,
+				4C3AA623201F6597007560FC /* PenelopeTests.xctest */,
+				4C3AA62E201F6597007560FC /* PenelopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3AA611201F6597007560FC /* Penelope */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AA612201F6597007560FC /* AppDelegate.swift */,
+				4C3AA614201F6597007560FC /* ViewController.swift */,
+				4C3AA616201F6597007560FC /* Document.swift */,
+				4C3AA618201F6597007560FC /* Assets.xcassets */,
+				4C3AA61A201F6597007560FC /* Main.storyboard */,
+				4C3AA61D201F6597007560FC /* Info.plist */,
+				4C3AA61E201F6597007560FC /* Penelope.entitlements */,
+			);
+			path = Penelope;
+			sourceTree = "<group>";
+		};
+		4C3AA626201F6597007560FC /* PenelopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AA627201F6597007560FC /* PenelopeTests.swift */,
+				4C3AA629201F6597007560FC /* Info.plist */,
+			);
+			path = PenelopeTests;
+			sourceTree = "<group>";
+		};
+		4C3AA631201F6597007560FC /* PenelopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AA632201F6597007560FC /* PenelopeUITests.swift */,
+				4C3AA634201F6597007560FC /* Info.plist */,
+			);
+			path = PenelopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3AA60E201F6597007560FC /* Penelope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3AA637201F6597007560FC /* Build configuration list for PBXNativeTarget "Penelope" */;
+			buildPhases = (
+				4C3AA60B201F6597007560FC /* Sources */,
+				4C3AA60C201F6597007560FC /* Frameworks */,
+				4C3AA60D201F6597007560FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Penelope;
+			productName = Penelope;
+			productReference = 4C3AA60F201F6597007560FC /* Penelope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C3AA622201F6597007560FC /* PenelopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3AA63A201F6597007560FC /* Build configuration list for PBXNativeTarget "PenelopeTests" */;
+			buildPhases = (
+				4C3AA61F201F6597007560FC /* Sources */,
+				4C3AA620201F6597007560FC /* Frameworks */,
+				4C3AA621201F6597007560FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3AA625201F6597007560FC /* PBXTargetDependency */,
+			);
+			name = PenelopeTests;
+			productName = PenelopeTests;
+			productReference = 4C3AA623201F6597007560FC /* PenelopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3AA62D201F6597007560FC /* PenelopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3AA63D201F6597007560FC /* Build configuration list for PBXNativeTarget "PenelopeUITests" */;
+			buildPhases = (
+				4C3AA62A201F6597007560FC /* Sources */,
+				4C3AA62B201F6597007560FC /* Frameworks */,
+				4C3AA62C201F6597007560FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3AA630201F6597007560FC /* PBXTargetDependency */,
+			);
+			name = PenelopeUITests;
+			productName = PenelopeUITests;
+			productReference = 4C3AA62E201F6597007560FC /* PenelopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C3AA607201F6597007560FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Basberg, Johan";
+				TargetAttributes = {
+					4C3AA60E201F6597007560FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4C3AA622201F6597007560FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3AA60E201F6597007560FC;
+					};
+					4C3AA62D201F6597007560FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C3AA60E201F6597007560FC;
+					};
+				};
+			};
+			buildConfigurationList = 4C3AA60A201F6597007560FC /* Build configuration list for PBXProject "Penelope" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C3AA606201F6597007560FC;
+			productRefGroup = 4C3AA610201F6597007560FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3AA60E201F6597007560FC /* Penelope */,
+				4C3AA622201F6597007560FC /* PenelopeTests */,
+				4C3AA62D201F6597007560FC /* PenelopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3AA60D201F6597007560FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3AA619201F6597007560FC /* Assets.xcassets in Resources */,
+				4C3AA61C201F6597007560FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA621201F6597007560FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA62C201F6597007560FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3AA60B201F6597007560FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3AA615201F6597007560FC /* ViewController.swift in Sources */,
+				4C3AA613201F6597007560FC /* AppDelegate.swift in Sources */,
+				4C3AA617201F6597007560FC /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA61F201F6597007560FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3AA628201F6597007560FC /* PenelopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3AA62A201F6597007560FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3AA633201F6597007560FC /* PenelopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3AA625201F6597007560FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3AA60E201F6597007560FC /* Penelope */;
+			targetProxy = 4C3AA624201F6597007560FC /* PBXContainerItemProxy */;
+		};
+		4C3AA630201F6597007560FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3AA60E201F6597007560FC /* Penelope */;
+			targetProxy = 4C3AA62F201F6597007560FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3AA61A201F6597007560FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3AA61B201F6597007560FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3AA635201F6597007560FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C3AA636201F6597007560FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4C3AA638201F6597007560FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Penelope/Penelope.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = Penelope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.Penelope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4C3AA639201F6597007560FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Penelope/Penelope.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = Penelope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.Penelope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4C3AA63B201F6597007560FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = PenelopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.PenelopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penelope.app/Contents/MacOS/Penelope";
+			};
+			name = Debug;
+		};
+		4C3AA63C201F6597007560FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = PenelopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.PenelopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penelope.app/Contents/MacOS/Penelope";
+			};
+			name = Release;
+		};
+		4C3AA63E201F6597007560FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = PenelopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.PenelopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Penelope;
+			};
+			name = Debug;
+		};
+		4C3AA63F201F6597007560FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94DYCUKKGX;
+				INFOPLIST_FILE = PenelopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basberg.PenelopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Penelope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3AA60A201F6597007560FC /* Build configuration list for PBXProject "Penelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3AA635201F6597007560FC /* Debug */,
+				4C3AA636201F6597007560FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3AA637201F6597007560FC /* Build configuration list for PBXNativeTarget "Penelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3AA638201F6597007560FC /* Debug */,
+				4C3AA639201F6597007560FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3AA63A201F6597007560FC /* Build configuration list for PBXNativeTarget "PenelopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3AA63B201F6597007560FC /* Debug */,
+				4C3AA63C201F6597007560FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3AA63D201F6597007560FC /* Build configuration list for PBXNativeTarget "PenelopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3AA63E201F6597007560FC /* Debug */,
+				4C3AA63F201F6597007560FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C3AA607201F6597007560FC /* Project object */;
+}
