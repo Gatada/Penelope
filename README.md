@@ -2,7 +2,7 @@
 Penelope is a free, independent and open source macOS text management and editing tool.
 Eventually Penelope will offer a number of very attractive features relating to writing and managing your notes.
 
-<img src="/Originals/Penelope-MainScreen.png" alt="Penelope Main Screen mockup.">
+<img src="/Document/Penelope-MainScreen.png" alt="Penelope Main Screen mockup.">
 
 
 ## Markdown
