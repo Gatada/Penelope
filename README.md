@@ -4,6 +4,11 @@ Eventually Penelope will offer a number of very attractive features relating to 
 
 ![Penelope Main Screen mockup.](./Document/ForWeb/Penelope-MainScreen.png)
 
+# Gather or Schedule Notes
+Penelope let's you organize your Notes in Collections, but also associate any Note with a particular date and time. Adding a timestamp allows the Note to appear in a timeline, and enables Penelope to remind you of any upcoming Notes that require your attention.
+
+Basically - Penelope allows you to deal with your Notes as tasks. Prepare next weeks meeting, write and store meeting summaries, log project progress; or use Penelope as a diary, or a home for your Notes. To help you write and focus, Penelope has a number of default smart-collections:
+
 ## <img src="./Document/ForWeb/Feature-Inbox.png" alt="The Inbox icon found in the Organizer sidebar." width="20" height="20"> Inbox
 Any Note not directly associated with a Note Collection is saved to the Inbox. From there you can whenever it's convenient process the Note and assign it to either an existing Project or Notebook.
 
@@ -22,6 +27,7 @@ Create and manage a meta structure for your notes. Find all notes related to a p
 
 
 # Additional Details
+Keep reading to learn more about why Penelope might be useful to you.
 
 ## Projects
 A Project ties your Notes to your calendar, which creates a timeline for your Notes. This makes *Penelope* perfect for documenting the evolution of a project. Notes can be assigned any date and time, which means Notes can be used for planning upcoming meetings, and writing meeting summaries - even long after the meeting has ended.
