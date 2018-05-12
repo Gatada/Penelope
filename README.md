@@ -2,7 +2,7 @@
 Penelope is a free, independent and open source macOS text management and editing tool.
 Eventually Penelope will offer a number of very attractive features relating to writing and managing your notes.
 
-<img src="./Document/ForWeb/Penelope-MainScreen.png" alt="Penelope Main Screen mockup.">
+![Penelope Main Screen mockup.](./Document/ForWeb/Penelope-MainScreen.png)
 
 ## <img src="./Document/ForWeb/Feature-Inbox.png" alt="The Inbox icon found in the Organizer sidebar." width="20" height="20"> Inbox
 Any Note not directly associated with a Note Collection is saved to the Inbox. From there you can whenever it's convenient process the Note and assign it to either an existing Project or Notebook.
