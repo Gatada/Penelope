@@ -4,20 +4,20 @@ Eventually Penelope will offer a number of very attractive features relating to 
 
 <img src="./Document/ForWeb/Penelope-MainScreen.png" alt="Penelope Main Screen mockup.">
 
-## <img src="./Document/ForWeb/Feature-Inbox.png" alt="The Inbox icon found in the Organizer sidebar."> Inbox
+## <img src="./Document/ForWeb/Feature-Inbox.png" alt="The Inbox icon found in the Organizer sidebar." width="50" height="50"> Inbox
 Any Note not directly associated with a Note Collection is saved to the Inbox. From there you can whenever it's convenient process the Note and assign it to either an existing Project or Notebook.
 
-## <img src="./Document/ForWeb/Feature-Focus.png" alt="The Focus icon found in the Organizer sidebar."> Focus
+## <img src="./Document/ForWeb/Feature-Focus.png" alt="The Focus icon found in the Organizer sidebar." width="50" height="50"> Focus
 To help you focus and prioritise certain Notes you can enable its Focus state. This will make the Note appear in the Focus collection in the Organizer sidebar. Disabling Focus will remove the Note from the Focus collection. Simple.
 
 Any Note added to a Project will automatically be associated with a timestamp (by default the creation date and time for the Note). When you modify this timestamp Penelope will automatically enable Focus mode for the Note, making it appear in the Focus collection under the appropriate section: Overdue, Today or Upcoming (if the date is in the future).
 
 For example, you can assign a Note to the day before your son's birthday so it appears in Focus to remind you to write the speech, and having it eventually appear in Today to give you enough time to print the cue cards.
 
-## <img src="./Document/ForWeb/Feature-Upcoming.png" alt="The Upcoming icon found in the Organizer sidebar."> Upcoming
+## <img src="./Document/ForWeb/Feature-Upcoming.png" alt="The Upcoming icon found in the Organizer sidebar." width="50" height="50"> Upcoming
 This Note Collection will show all Notes set to a date in the future, even if the Focus state is disabled for the Note. This means you'll get a complete overview of upcoming Notes that you may want to start working on.
 
-## <img src="./Document/ForWeb/Feature-Tags.png" alt="The Tag icon found in the Organizer sidebar."> Tags
+## <img src="./Document/ForWeb/Feature-Tags.png" alt="The Tag icon found in the Organizer sidebar." width="50" height="50"> Tags
 Create and manage a meta structure for your notes. Find all notes related to a particular tag, despite them being in different Note Collections. You can do binary operations on the tags to exclude or require combinations of different tags. Save tag requirements as *Filters* for later use.
 
 
